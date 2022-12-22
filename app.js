@@ -2,7 +2,7 @@ const bookingCont = document.querySelector(".theatre_location");
 const workshopContainer = document.querySelector(".workshop");
 
 async function getLiveEvents() {
-  let url = "/DB/theatre.json";
+  let url = "/theatre.json";
   const res = await fetch(url);
   const data = await res.json();
   // console.log(data)
